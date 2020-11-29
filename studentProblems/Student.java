@@ -16,18 +16,6 @@ public class Student {
         this.mark = mark;
     }
 
-    public boolean equals(Student student) {
-        if (student.getName().equals(this.getName())
-                && student.getSurName().equals(this.getSurName())
-                && student.getBirthDate() == this.getBirthDate()
-                && student.getGender() == this.getGender()
-                && student.getMark() == this.getMark()
-        ){
-            return true;
-        }
-        return false;
-    }
-
     public String getName() {
         return name;
     }
